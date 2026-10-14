@@ -1,0 +1,73 @@
+// Textos de interfaz. Los datos de contenido viven en los otros archivos de /data.
+export const ui = {
+  es: {
+    nav: { work: 'Proyectos', journey: 'Recorrido', stack: 'Stack', contact: 'Contacto' },
+    hero: {
+      intro: 'Desarrollador full stack y estudiante de Ingeniería en Sistemas y de la Licenciatura en IA en la UTN. Construyo productos de punta a punta: de la base de datos a la impresora.',
+      available: 'Disponible para proyectos',
+      local: 'en Córdoba',
+      cta: 'Ver proyectos',
+      hint: 'Mové el mouse sobre la bandada. Hacé click para espantarla.',
+      hintTouch: 'Tocá la pantalla para espantar la bandada.',
+    },
+    marquee: ['Full Stack', 'React', 'FastAPI', 'TypeScript', 'Python', 'UTN', 'Córdoba', 'Disponible'],
+    about: { title: 'Un poco de mí', ticket: 'Ticket', drag: 'Arrastrame', total: 'Total', totalV: 'Contratame', thanks: 'Gracias por pasar' },
+    featured: { title: 'Proyecto destacado', flow: 'Cómo viaja un pedido', flowHint: 'Tocá cada capa', visit: 'Visitar UTN Hub', gallery: 'Arrastrá la galería' },
+    work: { title: 'Más proyectos', live: 'Ver en vivo', code: 'Código', features: 'Lo importante', stack: 'Hecho con' },
+    process: { title: 'Cómo trabajo', example: 'Por ejemplo' },
+    journey: { title: 'Recorrido', work: 'Trabajo', study: 'Estudio' },
+    stackS: { title: 'Stack', hint: 'Agarrá las fichas y tiralas. Hay una que se escapa si la tirás fuerte.', hintTouch: 'Tocá la caja para sacudir las fichas.', all: 'Todo', reset: 'Ordenar', messy: 'Volver a la pileta' },
+    contact: {
+      title: 'Hablemos',
+      body: 'Busco mi próximo proyecto, prácticas o un equipo donde sumar. Si tenés una idea o un problema para resolver, escribime.',
+      copy: 'Copiar mail',
+      copied: 'Copiado',
+      cv: 'CV nuevo en camino',
+      made: 'Diseñado y construido en Córdoba',
+    },
+    secrets: { found: 'Secreto encontrado', of: 'de', label: 'secretos' },
+    title: { away: '¡Volvé! La bandada te extraña' },
+  },
+  en: {
+    nav: { work: 'Work', journey: 'Journey', stack: 'Stack', contact: 'Contact' },
+    hero: {
+      intro: 'Full stack developer studying Information Systems Engineering and Artificial Intelligence at UTN. I build products end to end: from the database to the printer.',
+      available: 'Open to projects',
+      local: 'in Córdoba',
+      cta: 'See work',
+      hint: 'Move your mouse over the flock. Click to scatter it.',
+      hintTouch: 'Tap the screen to scatter the flock.',
+    },
+    marquee: ['Full Stack', 'React', 'FastAPI', 'TypeScript', 'Python', 'UTN', 'Córdoba', 'Available'],
+    about: { title: 'A bit about me', ticket: 'Receipt', drag: 'Drag me', total: 'Total', totalV: 'Hire me', thanks: 'Thanks for stopping by' },
+    featured: { title: 'Featured project', flow: 'How a request travels', flowHint: 'Tap each layer', visit: 'Visit UTN Hub', gallery: 'Drag the gallery' },
+    work: { title: 'More work', live: 'Live', code: 'Code', features: 'Highlights', stack: 'Built with' },
+    process: { title: 'How I work', example: 'For example' },
+    journey: { title: 'Journey', work: 'Work', study: 'Study' },
+    stackS: { title: 'Stack', hint: 'Grab the chips and throw them. One escapes if you throw it hard.', hintTouch: 'Tap the box to shake the chips.', all: 'All', reset: 'Tidy up', messy: 'Back to the pile' },
+    contact: {
+      title: "Let's talk",
+      body: "I'm looking for my next project, an internship or a team to join. If you have an idea or a problem to solve, write to me.",
+      copy: 'Copy email',
+      copied: 'Copied',
+      cv: 'New CV on its way',
+      made: 'Designed and built in Córdoba',
+    },
+    secrets: { found: 'Secret found', of: 'of', label: 'secrets' },
+    title: { away: 'Come back! The flock misses you' },
+  },
+}
+
+// Los secretos que se pueden descubrir. El orden no importa.
+export const SECRETS = {
+  terminal: { es: 'Abriste la terminal', en: 'You opened the terminal' },
+  konami: { es: 'Código Konami: modo turbo', en: 'Konami code: turbo mode' },
+  photo: { es: 'Sí, soy yo', en: "Yes, that's me" },
+  print: { es: 'Imprimiste algo', en: 'You printed something' },
+  throw: { es: 'Una ficha se escapó', en: 'A chip escaped' },
+  paper: { es: 'Modo papel', en: 'Paper mode' },
+  heron: { es: 'Encontraste a la garza', en: 'You found the heron' },
+  order: { es: 'Agotaste los cupos de hoy', en: "You sold out today's quota" },
+  sky: { es: 'Miraste el cielo', en: 'You looked at the sky' },
+  flip: { es: 'Diste vuelta el ticket', en: 'You flipped the receipt' },
+}
