@@ -36,7 +36,7 @@ export default function Nav({ onTerminal }) {
       animate={{ y: hidden ? '-110%' : '0%' }}
       transition={{ duration: 0.5, ease: EASE }}
     >
-      <a href="#top" className="nav-mark" data-cursor="arriba" aria-label="Juan Agustín García, inicio">
+      <a href="#top" className="nav-mark" data-cursor="arriba" aria-label="Juan Agustín Garcia, inicio">
         JAG<span className="nav-mark-dot">.</span>
       </a>
       <nav className="nav-links" aria-label="Secciones">

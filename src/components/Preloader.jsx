@@ -5,7 +5,7 @@ import { prefersReduced } from '../lib/app'
 
 // Al entrar, el sitio "se imprime": sale una hoja de la ranura con los datos y el porcentaje.
 // Se muestra una vez por sesión y se saltea con click o cualquier tecla.
-const LINES = ['JUAN AGUSTÍN GARCÍA', 'FULL STACK DEVELOPER', 'CÓRDOBA · ARGENTINA', 'UTN · SISTEMAS + IA']
+const LINES = ['JUAN AGUSTÍN GARCIA', 'FULL STACK DEVELOPER', 'CÓRDOBA · ARGENTINA', 'UTN · SISTEMAS + IA']
 
 export default function Preloader({ onDone }) {
   const [show, setShow] = useState(() => {

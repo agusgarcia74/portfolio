@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'motion/react'
 import { useApp, prefersReduced } from '../lib/app'
 
 // La garza (así le dicen a Juan sus amigos). Cuando el footer entra en vista llega volando
-// y se posa sobre la tilde de la í de "García"; si volvés a subir, se va volando.
+// y se posa sobre el punto de la i de "Garcia"; si volvés a subir, se va volando.
 export default function HeronPerch({ footer, accent }) {
   const { unlock, lang } = useApp()
   const [state, setState] = useState('away') // away | in | perched | out

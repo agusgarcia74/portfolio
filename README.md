@@ -1,4 +1,4 @@
-# Portfolio — Juan Agustín García
+# Portfolio — Juan Agustín Garcia
 
 React 19 + Vite, Motion para las animaciones, Lenis para el scroll suave y matter-js para la física del stack. Sin framework de CSS: todo en `src/styles.css` con tokens (modo oscuro y modo papel).
 

@@ -1,8 +1,8 @@
 // Datos personales y links. Todo lo que aparece en más de una sección vive acá.
 export const site = {
-  name: 'Juan Agustín García',
+  name: 'Juan Agustín Garcia',
   first: 'Juan Agustín',
-  last: 'García',
+  last: 'Garcia',
   role: { es: 'Desarrollador Full Stack', en: 'Full Stack Developer' },
   location: 'Córdoba, Argentina',
   timezone: 'America/Argentina/Cordoba',

@@ -165,7 +165,7 @@ function Photo() {
       onPointerLeave={() => { rx.set(0); ry.set(0) }}
       onClick={click}
       data-cursor={clicks > 0 ? `${5 - clicks}…` : 'hola'}
-      aria-label="Foto de Juan Agustín García"
+      aria-label="Foto de Juan Agustín Garcia"
       data-no-shock
     >
       <motion.div
@@ -175,7 +175,7 @@ function Photo() {
       >
         <div className="hero-photo-front">
           <span className="tape" aria-hidden="true" />
-          <img src={site.photo} alt="Juan Agustín García, de camisa negra, en una terraza con árboles de fondo" />
+          <img src={site.photo} alt="Juan Agustín Garcia, de camisa negra, en una terraza con árboles de fondo" />
           <span className="hero-photo-caption">
             <span>Córdoba, AR</span>
             <span className="tabular">@agusgarcia74</span>

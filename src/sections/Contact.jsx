@@ -76,7 +76,7 @@ function Footer({ found, total }) {
     <footer className="footer" ref={footer}>
       <HeronPerch footer={footer} accent={accent} />
       <p className="footer-name" aria-hidden="true">
-        Garc<span ref={accent} className="footer-i">í</span>a
+        Garc<span ref={accent} className="footer-i">i</span>a
       </p>
       <div className="footer-row">
         <span>© {new Date().getFullYear()} {site.name}</span>
