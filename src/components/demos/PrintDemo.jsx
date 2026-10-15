@@ -18,7 +18,7 @@ export default function PrintDemo() {
   const [stage, setStage] = useState('idle') // idle | wifi | pc | usb | done
   const [tickets, setTickets] = useState([])
   const [flip, setFlip] = useState(false)
-  const [log, setLog] = useState([{ id: 0, t: '09:41:02', text: 'PrintServer en http://192.168.0.10:5000', kind: 'sys' }])
+  const [log, setLog] = useState([{ id: 0, t: '09:41:02', text: 'PrintServer listo · escuchando en la red local', kind: 'sys' }])
   const job = useRef(2005)
   const logId = useRef(1)
   const push = (text, kind = 'info') => {
